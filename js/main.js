@@ -6,4 +6,5 @@ $(document).ready(function() {
 		duration: 500,
 		noWrap: true
 	});
+	$(".parallax").parallax();
 })

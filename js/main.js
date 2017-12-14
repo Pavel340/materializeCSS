@@ -7,4 +7,12 @@ $(document).ready(function() {
 		noWrap: true
 	});
 	$(".parallax").parallax();
+	$(".modal").modal({
+		dismissible: false,
+		opacity: .9,
+		inDuration: 500,
+		outDuration: 500,
+		startingTop: '100%',
+		endingTop: '20%',
+	});
 })
